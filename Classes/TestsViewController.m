@@ -154,14 +154,14 @@
 */
 
 - (void)testDone:(NSString*)fn {
+    [self dismissModalViewControllerAnimated:YES];
 	if(fn) {
 		ResultViewController *rvc = [[ResultViewController alloc] initWithNibName:nil bundle:nil];
-		[self.navigationController pushViewController:rvc animated:YES];
+		[self.navigationController pushViewController:rvc animated:NO];
 //		rvc.textView.text = stats;
 		[rvc loadLog:fn];
 		[rvc release];
 	}
-		[self dismissModalViewControllerAnimated:YES];
 }
 
 #pragma mark -

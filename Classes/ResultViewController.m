@@ -136,6 +136,11 @@
 
 
 - (void) loadLog:(NSString*)path {
+    NSLog(@"Loading log %@",path);
+    if(!label) {
+        //force creation of view
+        [self view];
+    }
 	NSStringEncoding enc;
 	NSString *contents = [NSString stringWithContentsOfFile:path usedEncoding:&enc error:nil];
 	NSArray *lines = [contents componentsSeparatedByString:@"\n"];

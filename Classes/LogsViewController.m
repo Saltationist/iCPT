@@ -242,7 +242,6 @@
 	ResultViewController *rvc = [[ResultViewController alloc] initWithNibName:nil bundle:nil];
 	[self.navigationController pushViewController:rvc animated:YES];
 	[rvc loadLog:self.selectedLog];
-	
 	[rvc release];
 }
 
