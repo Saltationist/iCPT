@@ -1,0 +1,12 @@
+i, start.png, 0, 3, 0
+v, ett.png, 0.1, 2, 1
+a, ett_k.wav, 0, 2, 1
+v, tva.png, 0.1, 2, 0
+a, tva_k.wav, 0, 2, 0
+a, ett_k.wav, 0, 2, 1
+v, ett.png, 0.1, 2, 1
+a, tva_k.wav, 0, 2, 0
+v, ett.png, 0.1, 2, 1
+v, tva.png, 0.1, 2, 0
+v, ett.png, 0.1, 2, 1
+i, end.png, 0, 0, 0
